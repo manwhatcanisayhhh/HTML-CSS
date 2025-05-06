@@ -1,0 +1,53 @@
+body {
+	margin:0;
+	padding: 0;
+	background-color:#f7f7f7;
+}
+#biaoti ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+    top: 0;
+	width: 100%;
+}
+
+#biaoti li {
+    float: left;
+}
+
+#biaoti li a {
+	/*此元素将显示为块级元素,此元素前后会带有换行符*/
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#biaoti li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#biaoti li a.active {
+    color: white;
+    background-color: #4CAF50;
+	margin-left:20px;
+}
+#biaoti form{
+	float:right;
+	margin-right:10%;
+	margin-top:10px;
+}
+#banner{
+	margin-top:50px;
+	background-color:#000000;
+	color:#ffffff;
+	width:100%;
+}
+#liuyan{
+	/*以包含元素宽度的百分比指定左外边距*/
+	margin-left:25%;
+}

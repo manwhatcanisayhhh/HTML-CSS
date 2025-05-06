@@ -1,0 +1,162 @@
+body {
+	margin:0;
+	padding: 0;
+	background-color:#f7f7f7;
+}
+#biaoti ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+    top: 0;
+	width: 100%;
+}
+
+#biaoti li {
+    float: left;
+}
+
+#biaoti li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#biaoti li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#biaoti li a.active {
+    color: white;
+    background-color: #4CAF50;
+	margin-left:20px;
+}
+#biaoti form{
+	float:right;
+	margin-right:10%;
+	margin-top:10px;
+}
+#chengshi{
+	width:100%;
+	height:400px;
+}
+#bute ul{ 
+	margin-top:50px;
+	list-style-type: none;
+    overflow: hidden;
+	width: 100%;
+	background-color: #ffffff;
+}
+#bute li {
+    float: left;
+}
+#bute li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#bute li a:hover:not(.active) {
+    color: #111;
+}
+
+#bute li a.active {
+    color: white;
+    color: #4CAF50;
+	margin-left:20px;
+}
+#buta ul{ 
+	margin-top:0px;
+	list-style-type: none;
+    overflow: hidden;
+	width: 100%;
+	background-color: #ffffff;
+}
+#buta li {
+    float: left;
+}
+#buta li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#buta li a:hover:not(.active) {
+    color: #111;
+}
+
+#buta li a.active {
+    color: white;
+    color: #4CAF50;
+	margin-left:20px;
+}
+#main{
+	width:1500px;
+	height:100%;
+	margin:0;
+	padding: 0;
+}
+#left{
+	float: left;
+	margin-top:10px;
+	background-color:#ffffff;
+	width:600px;
+	height:600px;
+	margin-left:9.5%;
+}
+#right{
+	float: right;
+	margin-left:20px;
+	width:600px;
+	height:600px;
+	background-color:#ffffff;
+	margin-right:9.1%;
+
+}
+#lea{
+	width:600px;
+	height:250px;
+	border-bottom:1px solid #ababab;
+}
+#tupian{
+width:150px;
+height:150px;
+margin-top:25px;
+margin-left:40px;
+float: left;
+}
+
+#leb{
+	margin:0;
+	padding: 0;
+	width:400px;
+	height:300px;
+	float: right;
+	}
+
+#lea a{
+	text-decoration:none;
+	color:#000000;
+	margin-right:100px;
+	margin-left:90px;
+}
+#lea a:hover{
+	color:#ff0033;
+	}
+.note{
+float: right;
+margin-right:100px;
+}
+.pv{
+	color:#6c6c6c;
+	float:right;
+	font-size:15px;
+	margin-top:10px;
+margin-right:160px;
+}

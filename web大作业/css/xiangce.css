@@ -1,0 +1,66 @@
+body {
+	margin:0;
+	padding: 0;
+	background-color:#f7f7f7;
+}
+#biaoti ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+    top: 0;
+	width: 100%;
+}
+
+#biaoti li {
+    float: left;
+}
+
+#biaoti li a {
+	/*此元素将显示为块级元素,此元素前后会带有换行符*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#biaoti li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#biaoti li a.active {
+    color: white;
+    background-color: #4CAF50;
+	margin-left:20px;
+}
+#biaoti form{
+	float:right;
+	margin-right:10%;
+	margin-top:10px;
+}
+#cont{
+	/*让标签元素以表格单元格的形式呈现，类似于td标签*/
+display:table-cell;
+/*垂直居中*/
+vertical-align:middle;
+text-align:center;}
+.ima{width:200px;
+padding:18px;
+margin:30px;
+background-color:#FFFFFF;
+transition:transfrom 0.8s;
+-webkit-transform:transfrom 0.8s;}
+.ima:hover{
+	/*放大1.5倍旋转0，使类选择器优先*/
+	transform:scale(1.5)rotate(0deg)!important;}
+#a{transform:rotate(12deg);}
+#b{transform:rotate(-5deg);}
+#c{transform:rotate(10deg);}
+#d{transform:rotate(8deg);}
+#e{transform:rotate(-10deg);}
+#f{transform:rotate(-5deg);}
+#g{transform:rotate(10deg);}
+#h{transform:rotate(8deg);}
